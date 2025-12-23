@@ -1,4 +1,40 @@
 # Tetris-using-python-Pygame-
-Hi!! everyone this is one of my first code that i will be putting up here. It is not completely my code i did pick up parts of these from online sources but i am just excited to share my first code here.
-This is a tetris game made using Pygame in python which allows me to use the keyboard for inputs by the user and allows me to create shapes in the space i create. The basis of this code defines a 10x20 grid and then we also define the differet types of blocks that will randomly generate at the top of the grid and slowly fall down and start falling down faster and fast the higher your score becomes. The more technical part is how i was able to have the blocks fit in place, i did so using a trigger which will tell us when the two blocks collide and then the block is set in place. Other parts of the game include the row removal which i do as soon as a row is filled and the other pieces are slowly brought down, the score count which increases the score as the rows go away and also the game end when you are unable to place block and the next block that is coming down touches the top of the grid, then a game over message is displayed
-That is about it!!!
+This is one of the first projects I’ve built, and I’m excited to finally share it here!
+
+This project is a Tetris game developed using Python and Pygame. While the code is not entirely written from scratch (I’ve learned and adapted parts from online resources), the main goal of this project was to understand how a complete game works — from user input to collision handling and scoring.
+
+🧱 Game Overview
+
+The game is built on a 10×20 grid, which represents the Tetris board.
+
+Different Tetris block shapes are defined and randomly generated at the top of the grid.
+
+Blocks fall downward automatically, and the falling speed increases as the player’s score increases.
+
+The player can use the keyboard to move and rotate blocks.
+
+⚙️ Core Mechanics
+
+Collision Detection:
+A trigger system detects when a falling block collides with another block or the bottom of the grid. Once a collision is detected, the block is fixed in place.
+
+Row Clearing:
+When a row is completely filled, it is removed and all rows above it shift downward.
+
+Scoring System:
+The score increases each time a row is cleared, and higher scores result in faster gameplay.
+
+Game Over Condition:
+The game ends when a new block cannot be placed because it collides with blocks at the top of the grid. A Game Over message is then displayed.
+
+📌 Purpose
+
+This project helped me understand:
+
+Game loops and event handling in Pygame
+
+Grid-based logic and collision detection
+
+Managing increasing difficulty and scoring systems
+
+Overall, this was a great learning experience and a fun way to apply Python concepts in a real project.
